@@ -2,16 +2,17 @@
 
 ## Contact
 * Gmail: mirabror.dev@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/mirsadikov)
+* LinkedIn: [@mirsadikov](https://www.linkedin.com/in/mirsadikov)
+* Telegram: [@zeyds](https://t.me/mir_sadikov)
 
 ## Skills
 * Programming
 * Fast Learning
 * Teamwork
-* Communication
 
 ## Education
-Westminster International University in Tashkent, Uzbekistan
+- Westminster International University in Tashkent
+- Yeoju Technical Institute in Tashkent
 
 ## Experience
 
