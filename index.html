@@ -14,13 +14,21 @@
       <h2 class="header__title">Frontend Developer</h2>
     </header>
     <main>
+      <img
+        class="main__photo"
+        src="/images/hero.jpeg"
+        alt="Laptop, Web development, 
+      Christopher Gower"
+      >
       <section class="section">
-        <h2 class="section__title">Goal</h2>
+        <h2 class="section__title">About</h2>
         <p>
-          I want to become a professional Front-end developer. However, I am
-          very interested in Back-end development. I have plans to learn this
-          direction and become Full-stack developer. I want to be a part of a
-          team that creates something new and useful for people. ✌️
+          Hi ✌️. My name is Mirabror. I am a university student and specilized
+          in Information Technology. I want to become a professional Front-end
+          developer. However, I am very interested in Back-end development. I
+          have plans to learn this direction and become Full-stack developer. I
+          want to be a part of a team that creates something new and useful for
+          people.
         </p>
       </section>
 
@@ -52,6 +60,21 @@
       </section>
 
       <section class="section">
+        <h2 class="section__title">Code example</h2>
+        <pre><code class="code"><span class="code__keyword">function</span> <span class="code__function">findMax</span>(arr) &#123;
+  <span class="code__keyword">let</span> max = arr[0];
+    <span class="code__keyword">for</span> (<span class="code__keyword">let</span> i = 1; i &lt; arr.length; i++) &#123;
+      <span class="code__keyword">if</span> (arr[i] &gt; max) &#123;
+        max = arr[i];
+      &#125;
+    &#125;
+  <span class="code__keyword">return</span> max;
+&#125;
+</code>
+</pre>
+      </section>
+
+      <section class="section">
         <h2 class="section__title">Language</h2>
         <table class="section__table">
           <tbody>
@@ -70,6 +93,24 @@
           </tbody>
         </table>
       </section>
+
+      <section class="section">
+        <h2 class="section__title">Projects</h2>
+        <ul class="projects">
+          <li>
+            <a href="https://github.com/mirsadikov/MERN-shop">
+              <img src="/images/p1.png" alt="e-commerce wesite" >
+              <span> E-commerce </span></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/mirsadikov/MovieInfo">
+              <img src="/images/p2.png" alt="movie info website" >
+              <span> Movie Info </span>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="footer">
       <nav class="footer__nav">
@@ -87,7 +128,7 @@
           </li>
           <li class="footer__nav-item">
             <a class="footer__nav-link" href="mailto:mirabror9545@gmail.com"
-              >Mail</a
+              >Email</a
             >
           </li>
         </ul>
