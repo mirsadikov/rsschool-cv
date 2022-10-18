@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <h1 class="header__name">Mirabror Sodikov</h1>
+      <h2 class="header__title">Frontend Developer</h2>
+    </header>
+    <main>
+      <img
+        class="main__photo"
+        src="./images/hero.jpeg"
+        alt="Laptop, Web development, 
+      Christopher Gower"
+      >
+      <section class="section" id="about">
+        <h2 class="section__title">About</h2>
+        <p>
+          Hi ✌️. My name is Mirabror. I am a university student and specilized
+          in Information Technology. I want to become a professional Front-end
+          developer. However, I am very interested in Back-end development. I
+          have plans to learn this direction and become Full-stack developer. I
+          want to be a part of a team that creates something new and useful for
+          people.
+        </p>
+      </section>
+
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul>
+          <li>HTML &amp; CSS</li>
+          <li>Node.js</li>
+          <li>React</li>
+          <li>MongoDB</li>
+          <li>Express</li>
+          <li>C# (.NET)</li>
+          <li>SQL</li>
+          <li>Git</li>
+          <li>Design Patterns</li>
+          <li>OOP</li>
+          <li>Fast Learning</li>
+          <li>Googling</li>
+        </ul>
+      </section>
+
+      <section class="section education">
+        <h2 class="section__title">Education</h2>
+        <ul>
+          <li>- Westminster International University in Tashkent</li>
+          <li>- Yeoju Technical Institute in Tashkent</li>
+          <li>- Online courses from Udemy, Coursera, etc.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Code example</h2>
+        <pre><code class="code"><span class="code__keyword">function</span> <span class="code__function">findMax</span>(arr) &#123;
+  <span class="code__keyword">let</span> max = arr[0];
+    <span class="code__keyword">for</span> (<span class="code__keyword">let</span> i = 1; i &lt; arr.length; i++) &#123;
+      <span class="code__keyword">if</span> (arr[i] &gt; max) &#123;
+        max = arr[i];
+      &#125;
+    &#125;
+  <span class="code__keyword">return</span> max;
+&#125;
+</code>
+</pre>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Language</h2>
+        <table class="section__table">
+          <tbody>
+            <tr>
+              <td>English</td>
+              <td>Professional</td>
+            </tr>
+            <tr>
+              <td>Russian</td>
+              <td>Elementary</td>
+            </tr>
+            <tr>
+              <td>Uzbek</td>
+              <td>Native</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <ul class="projects">
+          <li>
+            <a href="https://github.com/mirsadikov/MERN-shop">
+              <img src="./images/p1.png" alt="e-commerce wesite" >
+              <span> E-commerce </span></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/mirsadikov/MovieInfo">
+              <img src="./images/p2.png" alt="movie info website" >
+              <span> Movie Info </span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="footer__nav" id="contacts">
+        <ul>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="cv.md">Markdown CV</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="https://github.com/mirsadikov"
+              >My Github</a
+            >
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="https://zeyds.t.me">Telegram</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="mailto:mirabror9545@gmail.com"
+              >Email</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <time datetime="2022-10-12">12.10.2022</time>
+      <a
+        class="footer__link"
+        href="https://github.com/rolling-scopes-school/js-fe-course-en"
+      >
+        <img
+          class="rs-logo"
+          src="https://rs.school/images/rs_school_js.svg"
+          alt="Rolling Scopes School"
+        >
+      </a>
+    </footer>
+  </body>
+</html>
